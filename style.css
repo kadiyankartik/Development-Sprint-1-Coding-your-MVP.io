@@ -7,14 +7,16 @@
 
 header{
   width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../basanta.image/photo2.jpg');
+  height: 38em;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../basanta.image/photo2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
+
 nav{
-    height: 13vh;
+    height: 10vh;
     background: white;
     color: white;
     display: flex;
@@ -22,6 +24,11 @@ nav{
     align-items: center;
     text-transform: uppercase;
 
+}
+
+.logo img{
+
+height:10vh;
 }
 
 nav .menu{
@@ -115,6 +122,9 @@ section .btntwo{
 color:#007bff;
 
 }
+section .p1{
+  height:20px;
+}
 
 @keyframes changetext{
   0%{ content: "Business Innovation ";}
@@ -124,15 +134,64 @@ color:#007bff;
   80% { content:"Ethical Haking";}
   100%{ content:"Share IT SKILLS"; }
 }
+.container {
+    padding-left: 1px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.article-img-strip__wrap:nth-child(4n+3) {
+    background-color: #295879;
+}
+
+@media (min-width: 576px)
+.article-img-strip__wrap {
+    position: relative;
+    overflow: hidden;
+}
+@media (min-width: 992px)
+.article-img-strip__wrap {
+    min-height: 400px;
+}
+.article-img-strip__wrap {
+    background-color: #211545;
+}
+
+.article-img-strip {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.article-img-strip h2 {
+    font-size: 32px;
+    font-family: 'Josefin Sans';
+    line-height: 48px;
+    padding-top: 1px;
+    padding-bottom: 24px;
+    margin: 30px;
+    text-align: center;
+}
+.article-img-strip h4 {
+  font-size: 25px;
+      font-family: 'Josefin Sans';
+      line-height: 48px;
+      padding-top: 1px;
+      padding-bottom: 24px;
+      margin: 30px;
+      text-align: center;
+      padding-left: 35em;
+    }
+
+
 
 .footer{
-background-color: #211545;
-    position: relative;
-    height: 60px;
-    margin-top: 73px;
-    clear: both;
-
-}
-.footer rte{
-
+  box-shadow: 0 0 5px rgba(0,0,0,.7);
+    background-color: #211545;
+      color: #fff;
+      text-transform: uppercase;
 }
